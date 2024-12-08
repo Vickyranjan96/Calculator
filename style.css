@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(168, 219, 235);
+    position: absolute;
+}
+
+#calculate{
+    height: 40vh;
+    width: 30vw;
+    border: 2px  solid;
+    margin: 15vh 33vw;
+    background-color: aqua;
+}
+td {
+    border: 1px solid;
+    font-size: 50px;
+    text-align: center;
+}
+td>input{
+    height: 11vh;
+    width: 100%;
+    font-size: 50px;
+}
+td:hover {
+    border: 1px solid black;
+    color: rgb(4, 249, 0);
+    background-color: rgb(252, 23, 23);
+    cursor: pointer;
+}
+

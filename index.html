@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div id = "main">
+            <table id = calculate >
+            <tr>
+                <td colspan="3" ><input id = "display" type="text" readonly value = "0"></td>
+                <td onclick="clr()">AC</td>
+            </tr>
+
+            <tr>
+                <td onclick="back()">B</td>
+                <td onclick="opr1('%');">%</td>
+                <td onclick="opr('/');">/</td>
+                <td onclick="opr('*');">x</td>
+                
+            </tr>
+            <tr>
+                <td onclick="num('7');">7</td>
+                <td onclick="num('8');">8</td>
+                <td onclick="num('9');">9</td>
+                <td onclick="opr('-');">-</td>
+            </tr>
+            <tr>
+                <td onclick="num('4');">4</td>
+                <td onclick="num('5');">5</td>
+                <td onclick="num('6');">6</td>
+                <td rowspan="2" onclick="opr('+');">+</td>
+            </tr>
+            <tr>
+                <td onclick="num('1');">1</td>
+                <td onclick="num('2');">2</td>
+                <td onclick="num('3');">3</td>
+            </tr>
+            <tr>
+                <td onclick="dot('.');">.</td>
+                <td onclick="num('0');">0</td>
+                <td colspan="2" onclick="equal('=');">=</td>
+            </tr>
+        </table>
+
+
+    </div>
+    
+</body>
+<script src="index.js">
+    
+</script>
+</html>
+
